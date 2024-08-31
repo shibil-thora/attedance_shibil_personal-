@@ -12,4 +12,4 @@ class GetEmployees(APIView):
             'state': 'Tamilnadu', 
             'time': datetime.datetime.now()
         }
-        return Response('hi from shibil')
+        return Response(data)
